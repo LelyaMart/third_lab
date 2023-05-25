@@ -74,7 +74,7 @@ void free(void *p)
         {
             if (b->prev)
             {
-                b->prev->prev = NULL;
+                b->prev->next = NULL;
             }
             else
             {
